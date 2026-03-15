@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hồn Cổ Escape Room</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-bg"></div>
+  <div class="site-overlay"></div>
+
+  <div class="mystic-clouds">
+  <span class="cloud cloud-1"></span>
+  <span class="cloud cloud-2"></span>
+  <span class="cloud cloud-3"></span>
+  </div>
+
+  <div class="floating-leaves">
+  <span class="leaf leaf-1"></span>
+  <span class="leaf leaf-2"></span>
+  <span class="leaf leaf-3"></span>
+  <span class="leaf leaf-4"></span>
+  <span class="leaf leaf-5"></span>
+  </div>
+
+  <div class="bamboo-scene">
+  <div class="bamboo-clump">
+    <span class="bamboo-stalk stalk-1"></span>
+    <span class="bamboo-stalk stalk-2"></span>
+    <span class="bamboo-stalk stalk-3"></span>
+    <span class="bamboo-stalk stalk-4"></span>
+
+    <span class="bamboo-leaf leaf-a"></span>
+    <span class="bamboo-leaf leaf-b"></span>
+    <span class="bamboo-leaf leaf-c"></span>
+    <span class="bamboo-leaf leaf-d"></span>
+    <span class="bamboo-leaf leaf-e"></span>
+    <span class="bamboo-leaf leaf-f"></span>
+    <span class="bamboo-leaf leaf-g"></span>
+    <span class="bamboo-leaf leaf-h"></span>
+    <span class="bamboo-leaf leaf-i"></span>
+    <span class="bamboo-leaf leaf-j"></span>
+    <span class="bamboo-leaf leaf-k"></span>
+    <span class="bamboo-leaf leaf-l"></span>
+    <span class="bamboo-leaf leaf-m"></span>
+    <span class="bamboo-leaf leaf-n"></span>
+    <span class="bamboo-leaf leaf-o"></span>
+  </div>
+
+  <span class="flying-leaf fly-1"></span>
+  <span class="flying-leaf fly-2"></span>
+  <span class="flying-leaf fly-3"></span>
+  <span class="flying-leaf fly-4"></span>
+  <span class="flying-leaf fly-5"></span>
+</div>
+
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand" aria-label="Hồn Cổ Escape Room">
+        <img id="logoImg" alt="Logo Hồn Cổ Escape Room" />
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Mở menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#rooms">Phòng chơi</a>
+        <a href="#price">Bảng giá</a>
+        <a href="#how">Chơi thế nào?</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-banner container">
+        <div class="hero-left">
+          <span class="hero-badge">Escape Room Concept Cổ Tích Huyền Bí</span>
+          <h1>HỒN CỔ ESCAPE ROOM</h1>
+          <p class="hero-text">
+            Cổ tích ẩn mặt, tay ta khai mở. Bước vào thế giới của những truyền thuyết bị lãng quên,
+            nơi mỗi cánh cửa là một câu chuyện, mỗi manh mối là một lời nguyền và mỗi quyết định đều
+            có thể đổi lấy tự do... hoặc mắc kẹt mãi mãi.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#rooms">Khám phá phòng chơi</a>
+            <a class="btn btn-outline" href="#contact">Đặt phòng ngay</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img id="heroBannerImg" alt="Banner Hồn Cổ" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-highlight" id="rooms">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Trò chơi hiện tại</span>
+          <h2>Ba thế giới cổ tích đang chờ được khai mở</h2>
+          <p>
+            Mỗi phòng là một truyền thuyết riêng với cơ chế giải đố, không khí và nhịp truyện khác nhau.
+            Người chơi sẽ bước vào vai những kẻ thám hiểm bị lạc trong cõi cổ tích, nơi trí tuệ và lòng can đảm
+            là chìa khóa duy nhất để thoát ra.
+          </p>
+        </div>
+
+        <div class="rooms-grid" id="roomsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head narrow">
+          <span class="section-kicker">Chơi thế nào?</span>
+          <h2>Hành trình 3 bước để bước vào thế giới Hồn Cổ</h2>
+        </div>
+
+        <div class="how-grid">
+          <article class="how-card">
+            <div class="how-number">01</div>
+            <h3>Chọn truyền thuyết</h3>
+            <p>
+              Chọn một trong ba phòng chơi theo gu của nhóm: huyền bí, trinh thám cổ tích hoặc fantasy thời gian.
+            </p>
+          </article>
+
+          <article class="how-card">
+            <div class="how-number">02</div>
+            <h3>Lập nhóm nhập vai</h3>
+            <p>
+              Tập hợp 2–8 người, cùng bước vào cốt truyện và phối hợp để giải mật mã, tìm vật phẩm, mở đường sống.
+            </p>
+          </article>
+
+          <article class="how-card">
+            <div class="how-number">03</div>
+            <h3>Giải đố trong 60 phút</h3>
+            <p>
+              Mỗi phút trôi qua là một phần câu chuyện được hé lộ. Nếu không phá giải kịp, bạn sẽ bị mắc kẹt trong huyền thoại.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-price" id="price">
+      <div class="container">
+        <div class="section-head narrow">
+          <span class="section-kicker">Bảng giá</span>
+          <h2>Giá vé tham gia Hồn Cổ Escape Room</h2>
+          <p>Phù hợp cho nhóm bạn, team building nhỏ, sinh nhật và trải nghiệm cuối tuần.</p>
+        </div>
+
+        <div class="price-board">
+          <div class="price-card">
+            <h3>Thứ 2 - Thứ 4</h3>
+            <div class="price-big">169.000đ</div>
+            <p>/ người / 60 phút</p>
+          </div>
+
+          <div class="price-card featured">
+            <span class="featured-tag">Ưu đãi</span>
+            <h3>Thứ 5 đồng giá</h3>
+            <div class="price-big">129.000đ</div>
+            <p>/ người / 60 phút</p>
+          </div>
+
+          <div class="price-card">
+            <h3>Thứ 6 - Chủ Nhật</h3>
+            <div class="price-big">179.000đ</div>
+            <p>/ người / 60 phút</p>
+          </div>
+
+          <div class="price-card">
+            <h3>Ngày lễ</h3>
+            <div class="price-big">199.000đ</div>
+            <p>/ người / 60 phút</p>
+          </div>
+        </div>
+
+        <div class="price-note">
+          Combo 2 tiếng: <strong>269.000đ/người</strong>.
+          Sau 22h00 có thể phụ thu tùy khung giờ. Có hỗ trợ suất riêng cho booking sự kiện nhóm.
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-stats">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Phòng chủ đề</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">60'</div>
+          <div class="stat-label">Thời lượng trải nghiệm</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">2–8</div>
+          <div class="stat-label">Người / nhóm</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Cốt truyện viết riêng</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head narrow">
+          <span class="section-kicker">Hình ảnh đội chơi</span>
+          <h2>Khoảnh khắc khi cánh cửa vừa mở ra</h2>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="container contact-wrap">
+        <div class="contact-left">
+          <div class="footer-brand">
+            <img id="footerLogoImg" alt="Logo footer" />
+            <h2>HỒN CỔ ESCAPE ROOM</h2>
+          </div>
+
+          <p class="contact-intro">
+            Một không gian escape room lấy cảm hứng từ cổ tích huyền bí, nơi mỗi người chơi là một nhân vật
+            bước vào câu chuyện và tự tay viết nên kết thúc của mình.
+          </p>
+
+          <div class="contact-columns">
+            <div>
+              <h3>Thông tin liên hệ</h3>
+              <ul class="contact-list">
+                <li>Địa chỉ: 56 Phan Văn Trị, Đống Đa, Hà Nội</li>
+                <li>Hotline: 0901 140 059</li>
+                <li>Email: honcoescape@gmail.com</li>
+                <li>Giờ mở cửa: 09:00 - 23:30</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Kết nối</h3>
+              <div class="socials">
+                <a id="facebookPageLink" target="_blank" rel="noopener">Facebook</a>
+                <a id="messengerLink" target="_blank" rel="noopener">Messenger</a>
+                <a id="tiktokLink" target="_blank" rel="noopener">TikTok</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <div class="map-card">
+            <h3>Đặt phòng nhanh</h3>
+            <p>Nhấn nút bên dưới để liên hệ fanpage hoặc Messenger.</p>
+
+            <div class="booking-links">
+              <a id="bookFacebookBtn" class="btn btn-primary" target="_blank" rel="noopener">Nhắn fanpage</a>
+              <a id="bookMessengerBtn" class="btn btn-outline" target="_blank" rel="noopener">Mở Messenger</a>
+            </div>
+
+            <div class="map-embed">
+              <iframe
+                src="https://www.google.com/maps?q=56%20Phan%20Van%20Tri%20Dong%20Da%20Ha%20Noi&z=15&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="floating-contact">
+    <a id="floatZalo" class="float-circle" href="#" aria-label="Zalo">Z</a>
+    <a id="floatHN" class="float-pill" target="_blank" rel="noopener">Liên hệ cơ sở HN</a>
+    <a id="floatPage" class="float-pill" target="_blank" rel="noopener">Liên hệ fanpage</a>
+    <a id="floatMessenger" class="float-pill" target="_blank" rel="noopener">Liên hệ Messenger</a>
+  </div>
+
+  <div class="modal" id="roomModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-dialog">
+      <button class="modal-close" id="modalClose" aria-label="Đóng">✦</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
