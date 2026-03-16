@@ -87,13 +87,15 @@ const roomsData = [
 ];
 
 function setupAssets() {
-  const logoImg = document.getElementById("logoImg");
-  const footerLogoImg = document.getElementById("footerLogoImg");
-  const heroBannerImg = document.getElementById("heroBannerImg");
+ const logoImg = document.getElementById("logoImg");
+const footerLogoImg = document.getElementById("footerLogoImg");
+const heroBannerImg = document.getElementById("heroBannerImg");
+const introLogoImg = document.getElementById("introLogoImg");
 
   logoImg.src = CLOUDINARY.logo;
-  footerLogoImg.src = CLOUDINARY.logo;
-  heroBannerImg.src = CLOUDINARY.heroBanner;
+footerLogoImg.src = CLOUDINARY.logo;
+heroBannerImg.src = CLOUDINARY.heroBanner;
+if (introLogoImg) introLogoImg.src = CLOUDINARY.logo;
 
   document.getElementById("facebookPageLink").href = LINKS.page;
   document.getElementById("messengerLink").href = LINKS.messenger;
@@ -115,8 +117,11 @@ function renderRooms() {
   roomsGrid.innerHTML = roomsData.map(room => {
     return `
       <article class="room-card">
-        <div class="room-thumb">
+                <div class="room-thumb">
           <img src="${room.image()}" alt="${room.title}">
+          <div class="room-thumb-overlay">
+            <span>Khai mở bí mật</span>
+          </div>
         </div>
 
         <div class="room-content">
@@ -305,6 +310,19 @@ function setupParallax() {
   });
 }
 
+
+function setupOpeningIntro() {
+  const intro = document.getElementById("openingIntro");
+  if (!intro) return;
+
+  document.body.style.overflow = "hidden";
+
+  setTimeout(() => {
+    intro.classList.add("hide");
+    document.body.style.overflow = "";
+  }, 2400);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   setupAssets();
   renderRooms();
@@ -313,4 +331,5 @@ document.addEventListener("DOMContentLoaded", () => {
   setupParallax();
   setupMobileNav();
   setupReveal();
+  setupOpeningIntro();
 });
