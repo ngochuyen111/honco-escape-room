@@ -1,6 +1,7 @@
 const CLOUDINARY = {
   // THAY TOÀN BỘ CÁC LINK DƯỚI ĐÂY BẰNG LINK CLOUDINARY THẬT CỦA BẠN
-  logo: "https://res.cloudinary.com/dcplldrsy/image/upload/v1773592535/logo_f9hxhy.jpg",
+  logo: "https://res.cloudinary.com/dcplldrsy/image/upload/v1774710490/H%E1%BB%93n_C%E1%BB%95_tr%E1%BB%91ng_%C4%91%E1%BB%93ng_vcwecc.png",
+
   heroBanner: "https://res.cloudinary.com/dcplldrsy/image/upload/v1773592535/banner_jer5vo.jpg",
 
   gallery: [
@@ -9,106 +10,82 @@ const CLOUDINARY = {
   ],
 
   rooms: {
-    phuongHoang: "https://res.cloudinary.com/dcplldrsy/image/upload/v1773593080/honphuonghoang_akdaxd.png",
-    langGiauMat: "https://res.cloudinary.com/dcplldrsy/image/upload/v1773593080/ngoilanggiaumat_rrxrnx.png",
-    cungDienThoiGian: "https://res.cloudinary.com/dcplldrsy/image/upload/v1773593081/bianthoigian_oxhnn5.png"
+    phuongHoang: "https://res.cloudinary.com/dcplldrsy/image/upload/v1774717111/tamcam_mbstwh.jpg",
+    langGiauMat: "https://res.cloudinary.com/dcplldrsy/image/upload/v1774717111/thachsanh_wmzttd.jpg",
+    cungDienThoiGian: "https://res.cloudinary.com/dcplldrsy/image/upload/v1774717111/khetravang_cs9zpj.jpg"
   }
 };
 
 const LINKS = {
-  page: "https://www.facebook.com/ngoc.anh.430535",
-  messenger: "https://www.messenger.com/e2ee/t/8728540453905822",
-  tiktok: "https://www.tiktok.com/@ngochuyen210505",
+  page: "https://www.facebook.com/people/H%E1%BB%93n-C%E1%BB%95/61580590208598/",
   zalo: "https://zalo.me/0335892317",
-  hanoiPage: "https://www.facebook.com/ngoc.anh.430535"
+  messenger: "https://www.messenger.com/t/1003196046215612"
 };
 
 const roomsData = [
   {
     id: "phuong-hoang",
     key: "phuongHoang",
-    title: "Hồn Phượng Hoàng",
+    title: "Tấm Cám - Tấm Hậu Ký",
     category: "Cổ tích huyền bí",
-    difficulty: "4.5/5",
+    difficulty: "⭐⭐⭐⭐⭐", // Updated to star rating
     duration: "60 phút",
-    players: "2 - 8 người",
-    vibe: "Huyền bí - linh vật - kho báu cổ tích",
+    players: "Tối thiểu 2 người", // Updated player count
+    vibe: "Tương Tác – Đa Kết – Huyền Ảo",
     image: () => CLOUDINARY.rooms.phuongHoang,
-    excerpt:
-      "Một mê cung thử thách được Phượng Hoàng để lại trước khi bị phong ấn. Chỉ người đủ trí tuệ và lòng trong sáng mới có thể chạm đến kho báu của Hồn Cổ.",
     story:
-      "Ngày xưa tại vùng đất Hồn Cổ, có một con chim Phượng Hoàng bảo vệ kho báu trí tuệ của nhân loại. Nhưng khi con người trở nên tham lam, họ đã tìm cách bắt giữ nó. Trước khi bị phong ấn, Phượng Hoàng đã để lại một mê cung thử thách. Chỉ những ai giải được bí mật của cổ tích mới xứng đáng mở kho báu. Nhưng có một lời nguyền: nếu thất bại, bạn sẽ mãi mãi mắc kẹt trong câu chuyện cổ tích.",
-    mission:
-      "Nhóm người chơi vào vai những kẻ được chọn đi tìm kho báu cuối cùng của Hồn Cổ. Bạn phải giải mã những biểu tượng cổ, đánh thức các linh vật canh giữ, ghép lại những mảnh truyền thuyết thất lạc và mở khóa trái tim của mê cung trước khi ngọn lửa Phượng Hoàng tàn lụi.",
-    challenge:
-      "Phòng thiên về giải mã logic, quan sát chi tiết, tương tác với cơ chế ẩn và khám phá lớp truyện nhiều tầng. Càng đi sâu, người chơi càng nhận ra rằng kho báu thật sự có thể không phải là vàng bạc, mà là lời đáp về lý do Phượng Hoàng chấp nhận tự phong ấn chính mình.",
+      "Bạn có dám đối mặt với một Tấm Cám chưa từng được kể, nơi mỗi định kiến đều là xiềng xích? Bước chân vào không gian vừa thân thuộc vừa ma mị của những làng nghề truyền thống, nơi những vật phẩm cổ xưa cất giấu bí mật ngàn đời. Qua lăng kính Thực tế tăng cường (AR), những ảo ảnh sẽ hiện hữu, biến mỗi chi tiết thành một lời thách thức, một cánh cửa mở ra sự thật hay vực sâu lãng quên. Bạn không chỉ là người chơi, mà là người định mệnh. Chỉ bạn mới có thể vén màn bí mật, khám phá những góc khuất chưa từng được hé lộ. Hãy dùng trí tuệ và lòng can đảm để cầm cân nảy mực, viết lại một cái kết hoàn toàn mới cho câu chuyện cổ tích này. Liệu bạn sẽ là người hùng khai mở sự thật, hay để quá khứ nghiệt ngã lặp lại? Số phận của Tấm Cám, và có thể cả của chính bạn, đang chờ đợi quyết định cuối cùng!",
     tags: ["Fantasy", "Linh vật cổ tích", "Kho báu huyền bí"]
   },
   {
     id: "lang-giau-mat",
     key: "langGiauMat",
-    title: "Ngôi Làng Giấu Mặt",
+    title: "Thạch Sanh - Huyền Thạch Tích",
     category: "Trinh thám cổ tích",
-    difficulty: "5/5",
+    difficulty: "⭐⭐⭐⭐☆", // Updated to star rating
     duration: "60 phút",
-    players: "2 - 7 người",
-    vibe: "Bí ẩn - mất ký ức - chiếc mặt nạ",
+    players: "Tối thiểu 2 người", // Updated player count
+    vibe: "Huyền Tích - Hiển Linh - Biến Hóa",
     image: () => CLOUDINARY.rooms.langGiauMat,
-    excerpt:
-      "Một ngôi làng cổ đã bị xóa khỏi bản đồ, nơi bất kỳ ai bước vào cũng đánh rơi ký ức. Sự thật nằm sau chiếc mặt nạ của cổ tích.",
-    story:
-      "Có một ngôi làng cổ bị xóa khỏi bản đồ. Người ta gọi nó là Ngôi Làng Giấu Mặt. Bất kỳ ai bước vào làng đều mất đi ký ức của mình. Một học giả đã để lại manh mối cuối cùng trước khi biến mất: “Sự thật được giấu sau chiếc mặt nạ của cổ tích.” Bạn và nhóm thám hiểm bước vào làng. Nhưng sau khi cánh cổng đóng lại, bạn nhận ra mọi con đường đều quay về điểm bắt đầu.",
-    mission:
-      "Người chơi phải lần theo dấu vết của vị học giả, tìm lại những ký ức bị tước mất, đối chiếu các câu chuyện dân gian sai lệch và tháo gỡ bí ẩn đằng sau chiếc mặt nạ đã cai trị cả ngôi làng. Mỗi quyết định đều làm thay đổi cách bạn nhìn nhận sự thật.",
-    challenge:
-      "Đây là phòng có nhịp kể chuyện mạnh, nhiều cú twist và yêu cầu phối hợp nhóm tốt. Cảm giác bị lạc hướng, lặp vòng và nghi ngờ chính những gì mình nhìn thấy là tinh thần chủ đạo của trải nghiệm này.",
-    tags: ["Trinh thám", "Ký ức mất tích", "Chiếc mặt nạ"]
+     story:
+      "Khi cánh cửa khép lại, bạn sẽ thấy mình lạc bước vào một không gian cổ tích lung linh, nơi ranh giới giữa thực tại và huyền thoại dần tan biến. Dưới tán lá sum suê của gốc đa cổ thụ ngàn năm, câu chuyện về chàng tiều phu Thạch Sanh không chỉ là những chiến công lẫy lừng, mà còn ẩn chứa những bí mật diệu kỳ về sự im lặng của Công Chúa và những khúc mắc chưa được hé lộ về Lý Thông. Bằng công nghệ AR tiên tiến, bạn sẽ khám phá những gợi ý tinh xảo ẩn giấu trong từng đường nét thủ công, từ đó giải mã những thông điệp cổ xưa được gửi gắm trong mỗi vật phẩm thành một cánh cửa dẫn lối đến những điều kỳ diệu. Trong hành trình này, bạn không chỉ là người quan sát mà là một phần không thể thiếu của câu chuyện. Chiếc niêu cơm thần kỳ giờ đây không chỉ là vật ban phát sự no đủ, mà là một nguồn năng lượng sống động đòi hỏi sự thấu cảm và trí tuệ của người chơi để đánh thức. Mỗi bước chân, mỗi tương tác của bạn sẽ dần mở ra một câu chuyện mới mẻ, nơi những nhân vật quen thuộc được nhìn nhận dưới một lăng kính đa chiều, giàu cảm xúc. Đặc biệt, hành trình này sẽ đưa bạn đến một cái kết hoàn toàn do chính bạn kiến tạo: liệu bạn sẽ chọn con đường công lý nghiêm minh, hay mở lòng đón nhận sự bao dung để hóa giải mọi hiểu lầm? Hãy bước vào thế giới huyền ảo dưới gốc đa, lắng nghe tiếng đàn thần vang vọng và tự tay viết nên một chương sử thi đầy cảm hứng cho riêng mình.",
+      tags: ["Trinh thám", "Ký ức mất tích", "Chiếc mặt nạ"]
   },
   {
     id: "cung-dien-thoi-gian",
     key: "cungDienThoiGian",
-    title: "Cung Điện Thời Gian",
+    title: "Ăn khế trả vàng - Khế Linh",
     category: "Fantasy cổ tích",
-    difficulty: "4/5",
+    difficulty: "⭐⭐⭐⭐☆", // Updated to star rating
     duration: "60 phút",
-    players: "2 - 8 người",
-    vibe: "Đồng hồ cổ - cánh cổng thời gian - cung điện sụp đổ",
+    players: "Tối thiểu 2 người", // Updated player count
+    vibe: "Cổ kính - nhân văn - huyền ảo",
     image: () => CLOUDINARY.rooms.cungDienThoiGian,
-    excerpt:
-      "Một chiếc đồng hồ cổ mở ra cánh cổng thời gian, khiến quá khứ, hiện tại và tương lai hòa vào nhau. Bạn chỉ có 60 phút để không bị xóa khỏi lịch sử.",
-    story:
-      "Một chiếc đồng hồ cổ được phát hiện trong cung điện Hồn Cổ. Truyền thuyết nói rằng nó có thể mở cánh cổng thời gian. Nhưng khi chiếc đồng hồ được kích hoạt, cung điện bắt đầu sụp đổ từng phần của thời gian. Quá khứ, hiện tại và tương lai hòa vào nhau. Bạn có 60 phút để khôi phục dòng thời gian. Nếu không, bạn sẽ biến mất khỏi lịch sử.",
-    mission:
-      "Người chơi phải khôi phục cơ chế vận hành của đồng hồ, lắp ghép các mốc thời gian bị xáo trộn, truy tìm nguồn gốc của vết nứt thời không và quyết định đâu là khoảnh khắc cần được cứu. Không phải mọi cánh cửa mở ra đều dẫn đến hiện tại.",
-    challenge:
-      "Phòng phù hợp cho nhóm thích cảm giác phiêu lưu, cơ chế biến đổi không gian và những câu đố có liên kết theo trình tự thời gian. Càng gần phút cuối, cung điện càng hỗn loạn và mọi lựa chọn đều trở nên cấp bách.",
-    tags: ["Time travel", "Fantasy", "Đồng hồ cổ"]
+      story:
+      "Ngoài những trái khế ngọt lịm thì từ ngàn xưa người Việt truyền tai nhau rằng cây khế có “linh”, liệu những cây khế cổ thụ đó còn cất giấu điều gì sâu thẳm hơn?  Không phải vàng bạc nào cũng lấp lánh như ta tưởng, và mỗi chuyến đi đều ẩn chứa những bài học chưa được khai mở. Bước vào không gian nơi những vật phẩm từ làng nghề truyền thống sẽ thì thầm những bí mật ngàn đời, và qua lăng kính Thực tế tăng cường (AR), bạn sẽ thấy những dấu vết chim thần để lại không chỉ là đường đến kho báu, mà còn là những lựa chọn định mệnh. Nhưng liệu có một con đường khác? Một con đường không chỉ dẫn đến sự giàu sang, mà còn đến sự hàn gắn, sẻ chia và tìm lại tình thân? Liệu bạn có đủ sáng suốt để nhìn thấu sự thật đằng sau ánh vàng chói lọi, để biến lòng tham thành lòng trắc ẩn, và khai mở một cái kết nhân văn hơn cho câu chuyện này? Số phận của cây khế, của người anh em, và cả của chính bạn, đang chờ được viết lại. Hãy sẵn sàng để khám phá một giai thoại hoàn toàn mới, nơi mỗi quyết định của bạn sẽ thay đổi cả một truyền thuyết, hướng về một tương lai tươi sáng hơn!",
+      tags: ["Time travel", "Fantasy", "Đồng hồ cổ"]
   }
 ];
 
 function setupAssets() {
- const logoImg = document.getElementById("logoImg");
-const footerLogoImg = document.getElementById("footerLogoImg");
-const heroBannerImg = document.getElementById("heroBannerImg");
-const introLogoImg = document.getElementById("introLogoImg");
+  const logoImg = document.getElementById("logoImg");
+  const footerLogoImg = document.getElementById("footerLogoImg");
+  const heroBannerImg = document.getElementById("heroBannerImg");
+  const introLogoImg = document.getElementById("introLogoImg");
 
   logoImg.src = CLOUDINARY.logo;
-footerLogoImg.src = CLOUDINARY.logo;
-heroBannerImg.src = CLOUDINARY.heroBanner;
-if (introLogoImg) introLogoImg.src = CLOUDINARY.logo;
+  footerLogoImg.src = CLOUDINARY.logo;
+  heroBannerImg.src = CLOUDINARY.heroBanner;
+  if (introLogoImg) introLogoImg.src = CLOUDINARY.logo;
 
   document.getElementById("facebookPageLink").href = LINKS.page;
-  document.getElementById("messengerLink").href = LINKS.messenger;
-  document.getElementById("tiktokLink").href = LINKS.tiktok;
 
   document.getElementById("bookFacebookBtn").href = LINKS.page;
   document.getElementById("bookMessengerBtn").href = LINKS.messenger;
 
   document.getElementById("floatZalo").href = LINKS.zalo;
   document.getElementById("floatZalo").setAttribute("target", "_blank");
-  document.getElementById("floatHN").href = LINKS.hanoiPage;
   document.getElementById("floatPage").href = LINKS.page;
-  document.getElementById("floatMessenger").href = LINKS.messenger;
 }
 
 function renderRooms() {
@@ -135,15 +112,14 @@ function renderRooms() {
           <div class="room-meta">
             <div><strong>Thời lượng:</strong> ${room.duration}</div>
             <div><strong>Nhóm:</strong> ${room.players}</div>
-            <div><strong>Không khí:</strong> ${room.vibe}</div>
+            <div><strong>Thể loại:</strong> ${room.vibe}</div>
             <div><strong>Concept:</strong> Hồn Cổ</div>
           </div>
 
-          <p class="room-excerpt">${room.excerpt}</p>
 
           <div class="room-actions">
             <button class="btn btn-ghost" data-open-room="${room.id}">Chi tiết</button>
-            <a class="btn btn-primary" href="${LINKS.messenger}" target="_blank" rel="noopener">Đặt phòng</a>
+            <a class="btn btn-primary" href="${LINKS.page}" target="_blank" rel="noopener">Đặt phòng</a>
           </div>
         </div>
       </article>
@@ -188,16 +164,8 @@ function roomDetailHTML(room) {
             <p>${room.story}</p>
           </div>
 
-          <div class="story-block">
-            <h4>Nhiệm vụ</h4>
-            <p>${room.mission}</p>
-          </div>
         </div>
 
-        <div class="story-block">
-          <h4>Điểm nổi bật</h4>
-          <p>${room.challenge}</p>
-        </div>
 
         <div class="details-grid">
           <div class="detail-box">
@@ -216,13 +184,13 @@ function roomDetailHTML(room) {
           </div>
 
           <div class="detail-box">
-            <strong>Không khí</strong>
+            <strong>Thể loại</strong>
             <span>${room.vibe}</span>
           </div>
         </div>
 
         <div class="modal-actions">
-          <a class="btn btn-primary" href="${LINKS.messenger}" target="_blank" rel="noopener">Đặt phòng</a>
+          <a class="btn btn-primary" href="${LINKS.page}" target="_blank" rel="noopener">Đặt phòng</a>
           <a class="btn btn-outline" href="${LINKS.page}" target="_blank" rel="noopener">Fanpage</a>
         </div>
 
@@ -322,8 +290,16 @@ function setupOpeningIntro() {
     document.body.style.overflow = "";
   }, 2400);
 }
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
+
+window.addEventListener("pageshow", () => {
+  window.scrollTo(0, 0);
+});
 
 document.addEventListener("DOMContentLoaded", () => {
+    window.scrollTo(0, 0);
   setupAssets();
   renderRooms();
   renderGallery();
