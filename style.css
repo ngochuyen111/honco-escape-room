@@ -261,7 +261,7 @@ button{
   display:inline-block;
   margin-bottom:12px;
   color:var(--gold-2);
-  font-size:13px;
+  font-size:20px;
   letter-spacing:.14em;
   text-transform:uppercase;
 }
@@ -361,7 +361,7 @@ button{
   gap:10px 16px;
   margin:16px 0;
   color:var(--muted);
-  font-size:14px;
+  font-size:18px;
 }
 
 .room-meta strong{
@@ -372,7 +372,7 @@ button{
 .room-excerpt{
   color:var(--muted);
   line-height:1.75;
-  font-size:14px;
+  font-size:18px;
   min-height:96px;
 }
 
@@ -502,7 +502,7 @@ button{
 
 .price-board{
   display:grid;
-  grid-template-columns:repeat(4, minmax(0, 1fr));
+  grid-template-columns:repeat(2, 1fr); /* Adjusted to 2 columns */
   gap:18px;
 }
 
@@ -955,6 +955,9 @@ button{
   border-radius:16px;
   border:1px solid rgba(255,255,255,.06);
   background:rgba(255,255,255,.03);
+  width: 200%; /* Doubled the width of the story-block */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  overflow-x: auto; /* Allows horizontal scrolling if content overflows */
 }
 
 .story-block h4{
@@ -967,7 +970,7 @@ button{
   margin:0;
   color:#ddf2ea;
   line-height:1.7;
-  font-size:13px;
+  font-size:16px;
 }
 
 .details-grid{
