@@ -1039,6 +1039,22 @@ button{
   }
 }
 
+   @media (max-width: 760px){
+  .story-block{
+    width:100%;
+    max-width:100%;
+    padding:12px;
+    overflow-x:hidden;
+  }
+
+  .story-block p{
+    font-size:14px;
+    line-height:1.65;
+    word-break:break-word;
+    overflow-wrap:anywhere;
+  }
+}
+
 @media (max-width: 760px){
   .modal-dialog{
     width:min(100%, calc(100% - 16px));
