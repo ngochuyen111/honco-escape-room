@@ -1726,6 +1726,35 @@ body::after{
     width:22px;
     height:7px;
   }
+
+  .modal-dialog{
+    width:calc(100% - 32px); /* Tăng khoảng cách để tránh sát mép */
+    padding:16px; /* Thêm padding để nội dung không bị dính sát */
+  }
+
+  .modal-title{
+    font-size:22px; /* Giảm kích thước chữ để phù hợp hơn */
+  }
+
+  .details-grid{
+    grid-template-columns:1fr; /* Hiển thị dạng cột đơn trên màn hình nhỏ */
+    gap:12px; /* Giảm khoảng cách giữa các mục */
+  }
+
+  .story-block p,
+  .detail-box span{
+    font-size:14px; /* Tăng nhẹ kích thước chữ để dễ đọc hơn */
+  }
+
+  .modal-image img{
+    width:100%; /* Đảm bảo hình ảnh không bị tràn màn hình */
+    height:auto; /* Giữ tỷ lệ hình ảnh */
+  }
+
+  .modal-actions{
+    flex-direction:column; /* Sắp xếp nút theo chiều dọc */
+    gap:8px; /* Thêm khoảng cách giữa các nút */
+  }
 }
 
 .opening-intro{
