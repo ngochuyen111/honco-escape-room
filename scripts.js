@@ -59,7 +59,7 @@ const roomsData = [
     difficulty: "⭐⭐⭐⭐☆", // Updated to star rating
     duration: "60 phút",
     players: "Tối thiểu 2 người", // Updated player count
-    vibe: "Cổ kính - nhân văn - huyền ảo",
+    vibe: "Cổ Kính - Nhân Văn - Huyền Ảo",
     image: () => CLOUDINARY.rooms.cungDienThoiGian,
       story:
       "Ngoài những trái khế ngọt lịm thì từ ngàn xưa người Việt truyền tai nhau rằng cây khế có “linh”, liệu những cây khế cổ thụ đó còn cất giấu điều gì sâu thẳm hơn?  Không phải vàng bạc nào cũng lấp lánh như ta tưởng, và mỗi chuyến đi đều ẩn chứa những bài học chưa được khai mở. Bước vào không gian nơi những vật phẩm từ làng nghề truyền thống sẽ thì thầm những bí mật ngàn đời, và qua lăng kính Thực tế tăng cường (AR), bạn sẽ thấy những dấu vết chim thần để lại không chỉ là đường đến kho báu, mà còn là những lựa chọn định mệnh. Nhưng liệu có một con đường khác? Một con đường không chỉ dẫn đến sự giàu sang, mà còn đến sự hàn gắn, sẻ chia và tìm lại tình thân? Liệu bạn có đủ sáng suốt để nhìn thấu sự thật đằng sau ánh vàng chói lọi, để biến lòng tham thành lòng trắc ẩn, và khai mở một cái kết nhân văn hơn cho câu chuyện này? Số phận của cây khế, của người anh em, và cả của chính bạn, đang chờ được viết lại. Hãy sẵn sàng để khám phá một giai thoại hoàn toàn mới, nơi mỗi quyết định của bạn sẽ thay đổi cả một truyền thuyết, hướng về một tương lai tươi sáng hơn!",
