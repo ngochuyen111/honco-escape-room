@@ -86,6 +86,8 @@ function setupAssets() {
   document.getElementById("floatZalo").href = LINKS.zalo;
   document.getElementById("floatZalo").setAttribute("target", "_blank");
   document.getElementById("floatPage").href = LINKS.page;
+  document.getElementById("floatZaloBtn").href = LINKS.zalo;
+document.getElementById("floatZaloBtn").setAttribute("target", "_blank");
 }
 
 function renderRooms() {
